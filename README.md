@@ -2,6 +2,21 @@
 The SmallFry 40% Board
 =====
 
+##NOTICE
+* This repo is a fork of Regack's 40Pct
+* This repo is under CC-BY-SA 3.0 Liscense
+* PLEASE MAKE SURE YOU FULLY UNDERSTAND THIS LISCENSE BEFORE YOU USE THE DESIGN.
+* 请确保在使用之前完全理解了 CC-BY-SA 3.0协议.
+
+## To-do list
+* Add the global backlight
+
+
+## v0.11
+* Change the cystal package to HC49
+* Change the mini USB package from SMD to TH
+
+
 ## v0.8-v0.10
 * I forget everything that I did, lots of little things
 * fixed some unconnected pads (oops)
