@@ -2,7 +2,7 @@
 
   (general
     (links 413)
-    (no_connects 289)
+    (no_connects 286)
     (area -7.895001 -10.9315 217.445001 117.555001)
     (thickness 1.6)
     (drawings 0)
@@ -1479,13 +1479,13 @@
   )
 
   (module SM0805:SM0805D (layer B.Cu) (tedit 50919C1C) (tstamp 5742DCCD)
-    (at 35.56 25.4 90)
+    (at 148.5011 103.2764)
     (path /57404552/57409F7C)
     (attr smd)
-    (fp_text reference D14 (at 0.508 -1.905 90) (layer B.SilkS)
+    (fp_text reference D14 (at 0.508 -1.905) (layer B.SilkS)
       (effects (font (size 0.935 0.935) (thickness 0.1588)) (justify mirror))
     )
-    (fp_text value DIODE (at -0.5715 1.4605 90) (layer B.SilkS) hide
+    (fp_text value DIODE (at -0.5715 1.4605) (layer B.SilkS) hide
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.527 1.016) (end 1.651 1.016) (layer B.SilkS) (width 0.3))
@@ -1498,9 +1498,9 @@
     (fp_line (start -0.1905 0.381) (end -0.1905 -0.381) (layer B.SilkS) (width 0.2))
     (fp_line (start -0.1905 -0.381) (end 0.1905 0) (layer B.SilkS) (width 0.2))
     (fp_line (start 0.1905 0) (end -0.1905 0.381) (layer B.SilkS) (width 0.2))
-    (pad 1 smd rect (at -0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 10 /Matrix/Col2))
-    (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 30 "Net-(D14-Pad2)"))
     (model smd/chip_cms.wrl
       (at (xyz 0 0 0))
@@ -1510,13 +1510,13 @@
   )
 
   (module SM0805:SM0805D (layer B.Cu) (tedit 50919C1C) (tstamp 5742DCD3)
-    (at 55.88 25.4 90)
+    (at 148.5011 103.2764)
     (path /57404552/57409F8B)
     (attr smd)
-    (fp_text reference D15 (at 0.508 -1.905 90) (layer B.SilkS)
+    (fp_text reference D15 (at 0.508 -1.905) (layer B.SilkS)
       (effects (font (size 0.935 0.935) (thickness 0.1588)) (justify mirror))
     )
-    (fp_text value DIODE (at -0.5715 1.4605 90) (layer B.SilkS) hide
+    (fp_text value DIODE (at -0.5715 1.4605) (layer B.SilkS) hide
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.527 1.016) (end 1.651 1.016) (layer B.SilkS) (width 0.3))
@@ -1529,9 +1529,9 @@
     (fp_line (start -0.1905 0.381) (end -0.1905 -0.381) (layer B.SilkS) (width 0.2))
     (fp_line (start -0.1905 -0.381) (end 0.1905 0) (layer B.SilkS) (width 0.2))
     (fp_line (start 0.1905 0) (end -0.1905 0.381) (layer B.SilkS) (width 0.2))
-    (pad 1 smd rect (at -0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 12 /Matrix/Col3))
-    (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 31 "Net-(D15-Pad2)"))
     (model smd/chip_cms.wrl
       (at (xyz 0 0 0))
@@ -1541,13 +1541,13 @@
   )
 
   (module SM0805:SM0805D (layer B.Cu) (tedit 50919C1C) (tstamp 5742DCD9)
-    (at 74.93 25.4 90)
+    (at 148.5011 103.2764)
     (path /57404552/57409F9A)
     (attr smd)
-    (fp_text reference D16 (at 0.508 -1.905 90) (layer B.SilkS)
+    (fp_text reference D16 (at 0.508 -1.905) (layer B.SilkS)
       (effects (font (size 0.935 0.935) (thickness 0.1588)) (justify mirror))
     )
-    (fp_text value DIODE (at -0.5715 1.4605 90) (layer B.SilkS) hide
+    (fp_text value DIODE (at -0.5715 1.4605) (layer B.SilkS) hide
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.527 1.016) (end 1.651 1.016) (layer B.SilkS) (width 0.3))
@@ -1560,9 +1560,9 @@
     (fp_line (start -0.1905 0.381) (end -0.1905 -0.381) (layer B.SilkS) (width 0.2))
     (fp_line (start -0.1905 -0.381) (end 0.1905 0) (layer B.SilkS) (width 0.2))
     (fp_line (start 0.1905 0) (end -0.1905 0.381) (layer B.SilkS) (width 0.2))
-    (pad 1 smd rect (at -0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 14 /Matrix/Col4))
-    (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 32 "Net-(D16-Pad2)"))
     (model smd/chip_cms.wrl
       (at (xyz 0 0 0))
