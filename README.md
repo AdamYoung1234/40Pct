@@ -1,5 +1,5 @@
 
-The SmallFry 40% Board
+The CW40 (SmallFry 40%) Board
 =====
 
 ##NOTICE
@@ -8,9 +8,11 @@ The SmallFry 40% Board
 * PLEASE MAKE SURE YOU FULLY UNDERSTAND THIS LISCENSE BEFORE YOU USE THE DESIGN.
 * 请确保在使用之前完全理解了 CC-BY-SA 3.0协议.
 
-## To-do list
-* Add the global backlight
-
+## v0.12
+* Change the name to CW40
+* Add global backlight
+* Add RGB underglow
+* Add Alps compatibility
 
 ## v0.11
 * Change the cystal package to HC49
