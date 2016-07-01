@@ -848,7 +848,7 @@ Text Label 6600 3300 0    60   ~ 0
 Col6
 Text Label 6600 3400 0    60   ~ 0
 GPIO0
-Text Label 6600 3500 0    60   ~ 0
+Text Label 6050 3500 0    60   ~ 0
 GPIO1
 Text Label 6250 3700 0    60   ~ 0
 GPIO2
@@ -872,9 +872,9 @@ Text Label 8350 1500 0    60   ~ 0
 GPIO3
 Text Label 8350 1600 0    60   ~ 0
 GPIO2
-Text Label 8350 1700 0    60   ~ 0
-GPIO1
 Text Label 8350 1800 0    60   ~ 0
+GPIO1
+Text Label 8350 1700 0    60   ~ 0
 GPIO0
 $Comp
 L CONN_3X2 P1
