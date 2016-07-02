@@ -1005,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 8650 3950 9100
 Wire Wire Line
-	3950 8950 16000 8950
+	3950 8950 16650 8950
 Wire Wire Line
 	5000 8950 5000 8650
 Connection ~ 3950 8950
@@ -2140,4 +2140,22 @@ Connection ~ 15000 8950
 Wire Wire Line
 	14900 8000 14900 7650
 Connection ~ 14900 7650
+$Comp
+L Csmall C20
+U 1 1 57780F5C
+P 16250 8100
+F 0 "C20" H 16275 8150 30  0000 L CNN
+F 1 "100nF" H 16275 8050 30  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 16250 8100 60  0001 C CNN
+F 3 "" H 16250 8100 60  0000 C CNN
+	1    16250 8100
+	1    0    0    -1  
+$EndComp
+Connection ~ 16000 8950
+Wire Wire Line
+	16250 8200 16250 8950
+Connection ~ 16250 8950
+Wire Wire Line
+	16250 8000 16250 7650
+Connection ~ 16250 7650
 $EndSCHEMATC
