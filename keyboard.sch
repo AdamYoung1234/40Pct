@@ -887,17 +887,6 @@ F 3 "" H 5250 1500 60  0000 C CNN
 	1    5250 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_4 P2
-U 1 1 578A5BB9
-P 9250 1650
-F 0 "P2" H 9250 1900 50  0000 C CNN
-F 1 "GPIO Port" V 9300 1650 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9250 1650 60  0001 C CNN
-F 3 "" H 9250 1650 60  0000 C CNN
-	1    9250 1650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2650 2750
 NoConn ~ 3050 2750
 Wire Wire Line
@@ -1007,4 +996,21 @@ F 3 "" H 1300 1900 60  0000 C CNN
 	1    1300 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_5 P2
+U 1 1 577C8A1F
+P 9300 1700
+F 0 "P2" V 9250 1700 50  0000 C CNN
+F 1 "GPIO Port" V 9350 1700 50  0000 C CNN
+F 2 "" H 9300 1700 60  0000 C CNN
+F 3 "" H 9300 1700 60  0000 C CNN
+	1    9300 1700
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8150 2000 8250 1900
+Wire Wire Line
+	8250 1900 8900 1900
+Text Label 8350 1900 0    60   ~ 0
+GPIO4
 $EndSCHEMATC
